@@ -160,7 +160,6 @@ p {
 /* hero */
 
 .hero {
-  
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
@@ -170,10 +169,11 @@ p {
       rgba(47, 48, 58, 0.8),
       rgba(47, 48, 58, 0.8)
     ),
-    url("../images/header.svg");
+    url("../images/hero/hero.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
 }
 
 .hero-container {
@@ -233,24 +233,40 @@ p {
 .feature-list {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .feature-list .item:not(:last-child) {
   margin-right: 30px; 
 }
 
-.background-features {
-  display: flex;
-  justify-content: center;
+/* .feature-icon {
+   padding: 0;
+   border: none;
+} */
+.feature-icon {
+  padding: 0;
+  border: none;
+  background-color: #fff;
+  fill: red;
+}
+
+.icon-antenna {
+  /* display: flex;
+  justify-content: center; */
   align-items: center;
 
-  background-color: var(--secondary-grey-color);
+  /* background-color: var(--secondary-grey-color);
   box-sizing: border-box;
   width: 270px;
   height: 120px;
   border-radius: 4px;
-  margin-bottom: 30px;    
+  margin-bottom: 30px;  */
+
+  width: 70px;
+  height: 70px;
+  --color1: red;
+  --color2: black;
 }
 
 .features-title {
@@ -633,6 +649,7 @@ button {
   height: 0px;
   color: transparent;
 }
+
 /* 
 .portfolio-card {
   display: flex;
