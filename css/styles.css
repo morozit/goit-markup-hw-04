@@ -10,7 +10,8 @@
   --primary-text-color: #757575;
   --accent-color: #2196f3;
   --primary-white-color:  #FFFFFF;
-  --secondary-grey-color: #F5F4FA; 
+  --secondary-grey-color: #F5F4FA;
+  --primary-logo-color: #AFB1B8; 
 }
 
 body {
@@ -344,8 +345,8 @@ p {
 }
 
 .team-social { 
-  color: var(--primary-white-color);
- 
+  /* color: var(--primary-white-color); */
+  fill: var(--primary-logo-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -353,22 +354,24 @@ p {
   height: 44px;
   width: 44px;
   border-radius: 50%;
-  box-shadow: 0px 2px 1px rgba(0.8, 0.8, 0.8, 0.8), 0px 1px 1px rgba(0, 0, 0, 0.8), 0px 1px 3px rgba(0, 0, 0, 0.8);
+  /* box-shadow: 0px 2px 1px rgba(0.8, 0.8, 0.8, 0.8), 0px 1px 1px rgba(0, 0, 0, 0.8), 0px 1px 3px rgba(0, 0, 0, 0.8); */
 }
-
 
 
 .team-social:hover,
 .team-social:focus {
   background-color: var(--accent-color);
+  fill: var(--primary-white-color);
+}
+
+.team-social .link {
+  padding: 12px;
 }
 
 .social-icon {
   width: 20px;
   height: 20px;
 }
-
-
 
 
 
@@ -384,7 +387,7 @@ p {
 
 .frame {
   border: 1px solid #AFB1B8;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   border-radius: 4px;
   width: 170px;
   height: 90px;
