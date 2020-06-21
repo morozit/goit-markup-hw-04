@@ -247,25 +247,22 @@ p {
 .feature-icon {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: var(--secondary-grey-color);
+  margin-bottom: 30px;
+  height: 120px;
+  width: 270px;
+  border-radius: 4px;
 }
 
-.icon-antenna {
-  /* display: flex;
-  justify-content: center; */
-  align-items: center;
-  box-sizing: border-box;
-  width: 270px;
-  height: 120px;
-  border-radius: 4px;
-  margin-bottom: 30px;
-
+.icon-antenna, .icon-clock, .icon-diagram, .icon-astronaut {
   width: 70px;
   height: 70px;
 }
 
-.features-title {
+.features-title  {
     color: var(--text-title-color);
+    text-transform: uppercase;
     font-weight: 700;
     line-height: 1.14;
     margin-bottom: 10px;
