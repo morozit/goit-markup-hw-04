@@ -249,6 +249,8 @@ p {
   border: none;
   background-color: #fff;
   fill: red;
+  /* --color3: red;
+  --color4: black; */
 }
 
 .icon-antenna {
@@ -265,8 +267,8 @@ p {
 
   width: 70px;
   height: 70px;
-  --color1: red;
-  --color2: black;
+  /* --color3: red;
+  --color4: black; */
 }
 
 .features-title {
